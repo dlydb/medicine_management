@@ -5,4 +5,4 @@ Please check out the [final presentation](https://drive.google.com/file/d/1fzqux
 
 Also here is the link for the short demo and our final product.
 
-![product](/final_product.png)
+![product](https://github.com/dlydb/medicine_management/blob/master/final_product.jpg)
