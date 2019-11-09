@@ -10,15 +10,19 @@ Also here is our final product.
 One of the other major components of the device is its touch screen interface, and accompanying application with which the user will interact. The application is a local web server hosted on a Raspberry Pi. The common Python web development framework, Django is implemented. Python was chosen due to its wide range of applications, allowing all components of the design to be integrated easily. Django allows web pages using conventional HTML and CSS styling to be served to a screen or touch screen device. The Django Application will include a variety of features. The main application includes a sidebar, colloquially referred to as a ‘navbar’, which includes links to all relevant web pages in the application. These pages include the following: Home, Calendar, My Pills, and Login. 
 
 Example of login screen:
+
 ![login](https://github.com/dlydb/medicine_management/blob/master/Image/login.png)
 
 Example of edit scren:
+
 ![edit](https://github.com/dlydb/medicine_management/blob/master/Image/edit.png)
 
 Example of schedule screen:
+
 ![schedule](https://github.com/dlydb/medicine_management/blob/master/Image/schedule.png)
 
 Example of different calendars:
+
 ![cal1](https://github.com/dlydb/medicine_management/blob/master/Image/cal1.png)
 ![cal2](https://github.com/dlydb/medicine_management/blob/master/Image/cal2.png)
 ![cal3](https://github.com/dlydb/medicine_management/blob/master/Image/cal3.png)
