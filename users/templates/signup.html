@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h2>Sign up</h2>
+  <form method="post" class="pure-form pure-form-aligned">
+  <fieldset>
+    {% csrf_token %}
+    {% for field in form %}
+        <div class="pure-control-group">  
+            {{ field.label_tag }}
+            {{ field }}
+            {% if field.help_text %}
+                <small style="color: grey">{{ field.help_text }}</small>
+            {% endif %}
+            {% for error in field.errors %}
+                <p style="color: red">{{ error }}</p>
+            {% endfor %}
+            </p>
+        </div>
+    {% endfor %}
+    <div class="pure-controls">
+        <button class="pure-button pure-button-primary" type="submit">Sign up</button>
+    </div>
+    </fieldset>
+    </form>
+{% endblock %}

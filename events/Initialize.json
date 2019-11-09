@@ -1,0 +1,22 @@
+[
+  {
+    "models": "med_mgmt.Canister",
+    "pk": 1
+  },
+  {
+    "model": "med_mgmt.Canister",
+    "pk": 2
+  },
+  {
+    "model": "med_mgmt.Canister",
+    "pk": 3
+  },
+  {
+    "model": "med_mgmt.Canister",
+    "pk": 4
+  },
+  {
+    "model": "med_mgmt.Canister",
+    "pk": 5
+  }
+]

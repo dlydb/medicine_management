@@ -1,0 +1,19 @@
+<!-- templates/registration/login.html -->
+{% extends 'base.html' %}
+
+{% block title %}Login{% endblock %}
+
+{% block content %}
+<h2>Login</h2>
+<form method="post" class="pure-form pure-form-aligned">
+<fieldset>
+    <div class="pure-control-group">
+        {% csrf_token %}
+        {{ form.as_p }}
+    </div>
+    <div class="pure-controls">
+        <button type="submit">Login</button>
+    </div>
+</fieldset>
+</form>
+{% endblock %}

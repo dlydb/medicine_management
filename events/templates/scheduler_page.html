@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block title %}Scheduler{% endblock %}
+
+{% block content %}
+<form action="{% url 'details' %}" target="_blank" method="POST">{% csrf_token %}
+<input id="pure-button" type="submit" name="Pill 1" value="Edit Pill 1" /><br>
+<input id="custombtn" type="submit" name="Pill 2" value="Edit Pill 2" /><br>
+<input id="custombtn" type="submit" name="Pill 3" value="Edit Pill 3" /><br>
+<input id="custombtn" type="submit" name="Pill 4" value="Edit Pill 4" /><br>
+<input id="custombtn" type="submit" name="Pill 5" value="Edit Pill 5" /><br>
+
+</form>
+{% endblock %}
+

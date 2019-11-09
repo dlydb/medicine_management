@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block title %} Pill Dispense Menu {% endblock %}
+
+{% block content %}
+{% if user.is_authenticated %}
+    <form action="" method="post">{% csrf_token %}
+    <input type="submit" name="S1" value="Dispense Pill 1" /><br>
+    <input type="submit" name="S2" value="Dispense Pill 2" /><br>
+    <input type="submit" name="S3" value="Dispense Pill 3" /><br>
+    <input type="submit" name="S4" value="Dispense Pill 4" /><br>
+    <input type="submit" name="S5" value="Dispense Pill 5" /><br>
+    </form>
+{% else %}
+    <h1>Sorry, you must be logged in to view this page.</h1>
+    <h2>Please login <a href="{% url 'login' %}">here</a>.</h2>
+{% endif %}
+
+{% endblock %}

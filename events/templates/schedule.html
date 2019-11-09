@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{% if user.is_authenticated %}
+    
+    <!--   Put actual schedule details here     -->
+    
+{% else %}
+    <h1>Sorry, you must be logged in to view this page.</h1>
+    <h2>Please login <a href="{% url 'login' %}">here</a>.</h1>
+{% endif %}
+{% endblock %}
