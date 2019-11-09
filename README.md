@@ -3,4 +3,6 @@ The objective of the Medicine Management is to develop a functional prototype fo
 
 Please check out the [final presentation](https://drive.google.com/file/d/1fzquxMiW0EZOune0G8FMk1LTMdDHwbn5/view?usp=sharing).
 
-Also here is the link for the short demo and our final project.
+Also here is the link for the short demo and our final product.
+
+![product](/final_product.png)
